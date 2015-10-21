@@ -5,8 +5,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Thoughts on Code and Life
-tagline:             Sepehr Vakili
+title:               Sepehr Vakili
+tagline:             
 url:                 http://sepehr.io
 paginate:            1
 baseurl:             ""
@@ -28,3 +28,8 @@ author:
 version:             2.0.0
 github:
   repo:              https://ithub.com/poole/poole
+
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
