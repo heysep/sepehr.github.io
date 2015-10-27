@@ -7,8 +7,8 @@ relative_permalinks: true
 # Setup
 title:               Sepehr Vakili
 tagline:             
-url:                 http://sepehr.io
-paginate:            1
+url:                 http://blog.sepehr.io
+paginate:            2
 baseurl:             ""
 
 # Assets
@@ -21,7 +21,7 @@ sass:
 # About/contact
 author:
   name:              Sepehr Vakili
-  url:               https://twitter.com/heysep
+  url:               https://twitter.com/sepehrvakili
   email:             sdvakili@gmail.com
 
 # Custom vars
