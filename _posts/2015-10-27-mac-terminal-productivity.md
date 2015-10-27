@@ -4,7 +4,7 @@ title: Terminal Productivity Tips for (awesome) Developers
 ---
 These are some settings, keyboard shortcuts, and configs for making you a more productive (read awesome) software engineer.
 
-If you feel they slow you down, that's okay, they probably will at first as would any new habit. Get them setup and internalized, gradually they will begin to save you hours if not more. 
+Get them setup and internalized, at first they'll seem challenging as would any new habit. Gradually, they will begin to save you hours if not more. 
 
 # Terminal (Mac Only)
 ## Keyboard Shortcuts
