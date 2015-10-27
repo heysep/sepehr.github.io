@@ -87,8 +87,9 @@ These are some configs I've find very helpful overtime. To use these suggestions
 	- This can be challenging at first but maximizing your trackpad speed will allow you to move the cursor with less spacial movement.
 ![Trackpad Speed]({{ site.url }}/assets/images/trackpad.png)
 - The Dock
-	- Avoid having too many apps in the dock any app can be quickly opened with `cmd + space`.
-	- Make the dock size small and set it to autohide.
+	- Keep the dock clutter free by minimizing the number of apps in the dock. 
+	- Any app can be quickly opened with `cmd + space` keyword `return`.
+	- Make the dock size smaller and set it to automatically hide.
 ![Mac Dock Settings]({{ site.url }}/assets/images/dock.png)
 	
 
