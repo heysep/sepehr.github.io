@@ -2,12 +2,14 @@
 layout: post
 title: Terminal Productivity Tips for (awesome) Developers 
 ---
-These are some settings, keyboard shortcuts, and configs for making you a more productive (read awesome) software engineer.
+These are some settings, keyboard shortcuts, and configs aimed for novice developers for making you a more productive (read awesome) software engineer.
 
 Get them setup and internalized, at first they'll seem challenging as would any new habit. Gradually, they will begin to save you hours if not more. 
 
-# Terminal (Mac Only)
+# Terminal (Mac)
+
 ## Keyboard Shortcuts
+
 **This one alone will save you hours:**
 
 - Move word by word: 
@@ -40,6 +42,10 @@ By default Mac Terminal has `esc + B` left movement and `esc + A` right movement
 - Switch terminal window tabs:
 	- Previous tab: `shift + cmd + [`
 	- Next tab: `shift + cmd + ]`
+- Open new tab: `cmd + t` 
+
+## Themes
+- The theme I use and recommend for the Terminal is [Smyck](http://color.smyck.org/).
 
 # Mac Tips
 
@@ -49,6 +55,7 @@ These are Mac tips which will be very helpful especially if you're new to Mac.
 
 - Close current tab: `cmd + W`
 - Quit current app: `cmd + Q`
+- Open new tab: `cmd + t`
 - Move to start of line: `cmd + ←`
 - Move to end of line: `cmd + →`
 - Move to start of page: `cmd + ↑`
