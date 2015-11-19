@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Terminal Productivity Tips for (awesome) Developers 
+title: Terminal Productivity Tips for Developers 
 ---
-These are some settings, keyboard shortcuts, and configs for Terminal, Chrome and Mac aimed for novice developers for making you a more productive (read awesome) software engineer.
+These are some settings, keyboard shortcuts, and configs for Terminal, Chrome and Mac aimed for novice developers for making you a more productive software engineer.
 
 # Terminal (Mac)
 
