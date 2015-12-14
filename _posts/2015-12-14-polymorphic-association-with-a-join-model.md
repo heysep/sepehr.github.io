@@ -2,7 +2,7 @@
 layout: post
 title: Polymorphic Association with A Join Model
 ---
-For our final project at The Iron Yard Academy my two team partners and I have been building an app called abstract. abstract is a community for makers – primarily visual artists. It is a place to seek inspiration and feedback from other creatives and friends. 
+For our final project at The Iron Yard Academy our team has been building an app called abstract. abstract is a community for makers – primarily visual artists. It is also a place to seek inspiration and feedback from other makers. 
 
 One of the features we wanted to have is tagging. 
 
