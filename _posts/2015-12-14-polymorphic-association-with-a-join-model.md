@@ -2,7 +2,9 @@
 layout: post
 title: Polymorphic Association with A Join Model
 ---
-For our final project at The Iron Yard Academy our team has been building an app called abstract. abstract is a space for creatives to communicate with other likeminded individuals by showcasing their creative concepts. Unlike communities like Behance and Dribbble which showcase completed works, abstract is a space where you can develop concepts as you work through the creative process while gathering feedback. 
+For our final project at The Iron Yard Academy our team has been building an app called abstract. abstract is a space for creatives to communicate with other likeminded individuals by showcasing their creative concepts. 
+
+Unlike communities like Behance and Dribbble which showcase completed works, abstract is a space where you can develop concepts as you work through the creative process while gathering feedback. 
 
 One of the features we wanted to have is tagging. 
 
@@ -13,7 +15,8 @@ One of the features we wanted to have is tagging.
 * As a user I'd like to tag any discussions I create with words and phrases.
 * As a user I'd like to see all the things that have a specific tag.
 
-There are at least three approaches to the requirements above. 
+The back-end API for abstract is built with the Ruby on Rails framework. 
+As such, there are at least three approaches to the requirements above using Active Record.
 
 1. Ugly: A separate tags model for each model
 2. Bad: One polymorphic model for all 3 models
