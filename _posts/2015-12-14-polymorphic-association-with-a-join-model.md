@@ -18,28 +18,28 @@ One of the features we wanted to have is tagging.
 The back-end API for abstract is built with the Ruby on Rails framework. 
 As such, there are at least three approaches to the requirements above using Active Record.
 
-1. Ugly: A separate tags model for each model
-2. Bad: One polymorphic model for all 3 models
-3. Good: One polymorphic model with a join table
+1. A separate tags model for each model
+2. One polymorphic model for all 3 models
+3. One polymorphic model with a join table
 
 With polymorphic associations, a model (taggings) can belong to more than one other model (profiles, posts, discussions), on a single association.
 
-## The Good, The Bad, and The Ugly
+## The Three Approaches
 
-1. Ugly: A separate tags model for each model
+1. A separate tags model for each model
 
 	* This approach is essentially duplicating the same model for each other model that it belongs to. The main difference is the foreign key id. Furthermore, there is no join table to hold all the tag words and phrases.
 	* ![A separate tags model for each model]({{ site.url }}/assets/images/polymorphic_association_ugly.png)
 
-2. Bad: One polymorphic model for all 3 models
+2. One polymorphic model for all 3 models
 
 	* This approach is better than the above as it leverages the polymorphic association to avoid duplication of a model with similar structure. 
 	* You could use the following tagging model as a polymorphic association and apply it to each of the models above. But, notice how you'll be duplicating the phrases in the taggings table. 
 	* ![One polymorphic model for all 3 models]({{ site.url }}/assets/images/polymorphic_association_bad.png)
 
-3. Good: One polymorphic model with a join table
+3. One polymorphic model with a join table
 
-	* This is the approach we used for our project as it not only utilizes polymorphic association but also has a separate tags model for the words and phrases.
+	* This is the approach I used for our project as it not only utilizes polymorphic association but also has a separate tags model for the words and phrases.
 	* ![One polymorphic model with a join table]({{ site.url }}/assets/images/polymorphic_association_good.png)
 	* This approach will require setter and getter methods on the models (see below).
 
