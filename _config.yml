@@ -27,9 +27,11 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://ithub.com/poole/poole
+  repo:              https://github.com/poole/poole
 
 pages_list:
   About: '/about'
   Archive: '/archive'
   Feed: '/atom.xml'
+  Github: 'https://github.com/sepehrvakili'
+  LinkedIn: 'https://www.linkedin.com/in/sepehrvakili'
