@@ -9,6 +9,6 @@ Previously, I helped build an online academy as a product manager in Malaysia. I
 
 I enjoy software engineering because I love tackling new and challenging problems. 
 
-You can say hi to me [@sepehrvakili](https://twitter.com/sepehrvakili)
+You can say hi to me [@sepehrvakili](https://twitter.com/sepehrvakili).
 
 Thanks for reading. 
